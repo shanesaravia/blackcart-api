@@ -8,7 +8,7 @@ Once you have this repo cloned, it's very simple to get started.
 If for any reason you have trouble with step 3, you can run "python run.py" while in the root directory instead of "flask run".
 
 ### Test endpoint
-#### Endpoint: /stores/<store id>/products
+#### Endpoint: /stores/{store_id}/products
 1. Make a GET request to the endpoint above
 
 ### How to run test suite
@@ -27,7 +27,7 @@ If for any reason you have trouble with step 3, you can run "python run.py" whil
 #### Request
 Example Request:
 ```
-127.0.0.1:5000/stores/1/products
+GET 127.0.0.1:5000/stores/1/products
 ```
 
 #### Response
